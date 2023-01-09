@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Thank you</title>
+<meta charset="utf-8">
+<link rel="shortcut icon" type="image/png" href="images/Faviconn.jpeg">
+<link rel="stylesheet" href="style.css">
+<link href="https://fonts.googleapis.com/css?family=Poppins:100,200,300,400,600,700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"> 
+</head>
+<body>
+        <nav>
+            <a href="index.html"><img src="images/Faviconn.jpeg"></a>
+            <div class="nav-links" id="navLinks">  
+                <i class="fa fa-close" onclick="hideMenu()"></i>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>   
+
+<!---------- Facilities ---------->
+    
+<section class="thank">
+        <div class="row">
+            <div class="thank-col">
+                <img src="images/thank.jpeg">
+                <h3>Thank You!</h3>
+                <p>Your submission has been received.</p><br>
+                <a href="index.html" class="hero-btn red-btn">GO BACK</a>
+            </div>
+        </div>
+</section> 
+
+<!-------- footer ---------->
+
+<section class="footer">
+    <div class="icons">
+        <i class="fa fa-facebook"></i>
+        <i class="fa fa-twitter"></i>
+        <i class="fa fa-instagram"></i>
+        <i class="fa fa-linkedin"></i>
+        <i class="fa fa-youtube"></i>
+    </div>
+    <p>Copyright © 2022 Barbara Birmans. All Rights Reserved.</p>
+ 
+<!----JavaScript for toggle menu---->
+<script>
+ var navLinks = document.getElementById("navLinks");
+
+ function showMenu() {
+     navLinks.style.right = "0";
+ }
+
+ function hideMenu() {
+     navLinks.style.right = "-200px";
+ }
+</script> 
+ 
+</body>
+</html>    
